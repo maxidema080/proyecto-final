@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroImage {
+  height: 100vh;
+  background-image: url("../assets/img/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroImage .heroContent {
+  height: 100% !important;
+  color: #fff;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+}
+.heroImage .heroContent h1 {
+  font-size: 4rem;
+}
+.heroImage .heroContent p {
+  font-size: 1rem;
+  margin: 0.5rem 0 2rem 0;
+}
+.heroImage .heroContent .heroBtn a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e10f60;
+  border-radius: 5px;
+}
+
+.conocenos {
+  height: auto;
+  padding: 5rem 0 5rem 0;
+}
+.conocenos .conocenosText {
+  text-align: center;
+}
+.conocenos .divImgConocenos {
+  text-align: center;
+}
+.conocenos .divImgConocenos .imgConocenos {
+  width: 300px;
+  margin: auto auto;
+  border-radius: 5px;
+}
+
+.page-footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.actividades {
+  background-color: #e10f60;
+  height: auto;
+  padding: 5rem 0 5rem 0;
+}
+
+.articulo1 {
+  background-color: #e10f60;
+  color: black;
+}
+
+.parallax {
+  background-color: lightblue;
+}
+
+.parallax49 {
+  background-color: #e10f60;
+  color: white;
+}
+
+.parallax50 {
+  background-color: #e10f60;
+  color: lightblue;
+}
+
+.parallax51 {
+  background-color: #e10f60;
+  color: #000;
+}
+
+.mision {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
